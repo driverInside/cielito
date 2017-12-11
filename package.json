@@ -1,0 +1,30 @@
+{
+  "name": "cielito",
+  "version": "1.0.0",
+  "description": "\"Training en Cielito Alameda\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "monitor": "nodemon index.js NODE_ENV='development'",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driverInside/cielito.git"
+  },
+  "author": "Hiram E. Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driverInside/cielito/issues"
+  },
+  "homepage": "https://github.com/driverInside/cielito#readme",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-json": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1"
+  }
+}
