@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/driverInside/cielito#readme",
   "dependencies": {
+    "faker": "^4.1.0",
     "koa": "^2.4.1",
-    "koa-json": "^2.0.2"
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.3.0",
+    "mongoose": "^4.13.6",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "chai": "^4.1.2",

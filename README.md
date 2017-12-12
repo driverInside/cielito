@@ -3,7 +3,7 @@ Lunes de training.
 
 ### 1. Clonar este repo.
 ```
-git@github.com:driverInside/cielito.git
+git clone git@github.com:driverInside/cielito.git
 ```
 ### 2. Instalar dependencias
 ```
